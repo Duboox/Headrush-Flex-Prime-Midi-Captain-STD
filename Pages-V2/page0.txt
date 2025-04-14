@@ -97,8 +97,8 @@ short_dw1 = [1][CC][70][127]
 keytimes = [1]
 ledmode = [select]
 ledcolor1 = [0xffffff][0xffffff][0xffffff]
-# Press Fs2 and Fs3 Short to bank up
-short_up1 = [1][CC][51][127] [1][CC][52][127] [1][CC][51][0] [1][CC][52][0]
+# Press Fs2 and Fs3 Short to bank up (51-on, 52-on, time x15, 51-off, 52-off)
+short_up1 = [1][CC][51][127] [1][CC][52][127] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][51][0] [1][CC][52][0]
 
 # A | HDRH - FS 1
 [key5]
@@ -108,6 +108,7 @@ ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
 short_dw1 = [1][CC][50][127]
 short_up1 = [1][CC][50][0]
 long1 = [1][CC][50][127]
+long_up1 = [1][CC][50][0]
 
 # B | HDRH - FS 2
 [key6]
@@ -117,6 +118,7 @@ ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
 short_dw1 = [1][CC][51][127]
 short_up1 = [1][CC][51][0]
 long1 = [1][CC][51][127]
+long_up1 = [1][CC][51][0]
 
 # C | HDRH - FS 3
 [key7]
@@ -126,6 +128,7 @@ ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
 short_dw1 = [1][CC][52][127]
 short_up1 = [1][CC][52][0]
 long1 = [1][CC][52][127]
+long_up1 = [1][CC][52][0]
 
 # 4 | HDRH - Metronome
 [key8]
@@ -139,5 +142,5 @@ short_dw1 = [1][CC][115][127]
 keytimes = [1]
 ledmode = [select]
 ledcolor1 = [0xffffff][0xffffff][0xffffff]
-# Press Fs1 and Fs2 Short to bank down
-short_up1 = [1][CC][50][127] [1][CC][51][127] [1][CC][50][0] [1][CC][51][0]
+# Press Fs1 and Fs2 Short to bank down (50-on, 51-on, time x15, 50-off, 51-off)
+short_up1 = [1][CC][50][127] [1][CC][51][127] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][50][0] [1][CC][51][0]
