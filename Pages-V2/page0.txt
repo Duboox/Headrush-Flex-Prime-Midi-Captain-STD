@@ -67,43 +67,43 @@ display_bank_offset = [1]
 # 1 | HDRH - Practice Tool - Open
 [key0]
 keytimes = [1]
-ledmode = [select]
-ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
+ledmode = [normal]
+ledcolor1 = [0x00FFE1][0x00FFE1][0x00FFE1]
 short_dw1 = [1][CC][102][127]
 
 # 2 | HDRH - Practice Tool - Play
 [key1]
 keytimes = [1]
-ledmode = [select]
-ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
+ledmode = [normal]
+ledcolor1 = [0x00FFE1][0x00FFE1][0x00FFE1]
 short_dw1 = [1][CC][103][127]
 
 # 3 | HDRH - Looper - Start/Stop
 [key2]
 keytimes = [1]
-ledmode = [select]
-ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
+ledmode = [normal]
+ledcolor1 = [0x0061FF][0x0061FF][0x0061FF]
 short_dw1 = [1][CC][69][127]
 
 # 4 | HDRH - Looper - Record
 [key3]
 keytimes = [1]
-ledmode = [select]
-ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
+ledmode = [normal]
+ledcolor1 = [0x0061FF][0x0061FF][0x0061FF]
 short_dw1 = [1][CC][70][127]
 
 # UP
 [key4]
 keytimes = [1]
-ledmode = [select]
-ledcolor1 = [0xffffff][0xffffff][0xffffff]
+ledmode = [normal]
+ledcolor1 = [0xFFBD00][0xFFBD00][0xFFBD00]
 # Press Fs2 and Fs3 Short to bank up (51-on, 52-on, time x15, 51-off, 52-off)
 short_up1 = [1][CC][51][127] [1][CC][52][127] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][51][0] [1][CC][52][0]
 
 # A | HDRH - FS 1
 [key5]
 keytimes = [1]
-ledmode = [select]
+ledmode = [normal]
 ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
 short_dw1 = [1][CC][50][127]
 short_up1 = [1][CC][50][0]
@@ -113,7 +113,7 @@ long_up1 = [1][CC][50][0]
 # B | HDRH - FS 2
 [key6]
 keytimes = [1]
-ledmode = [select]
+ledmode = [normal]
 ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
 short_dw1 = [1][CC][51][127]
 short_up1 = [1][CC][51][0]
@@ -123,7 +123,7 @@ long_up1 = [1][CC][51][0]
 # C | HDRH - FS 3
 [key7]
 keytimes = [1]
-ledmode = [select]
+ledmode = [normal]
 ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
 short_dw1 = [1][CC][52][127]
 short_up1 = [1][CC][52][0]
@@ -133,14 +133,14 @@ long_up1 = [1][CC][52][0]
 # 4 | HDRH - Metronome
 [key8]
 keytimes = [1]
-ledmode = [select]
-ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
+ledmode = [normal]
+ledcolor1 = [0x54B70F][0x54B70F][0x54B70F]
 short_dw1 = [1][CC][115][127]
 
 # DOWN
 [key9]
 keytimes = [1]
-ledmode = [select]
-ledcolor1 = [0xffffff][0xffffff][0xffffff]
+ledmode = [normal]
+ledcolor1 = [0xFFBD00][0xFFBD00][0xFFBD00]
 # Press Fs1 and Fs2 Short to bank down (50-on, 51-on, time x15, 50-off, 51-off)
 short_up1 = [1][CC][50][127] [1][CC][51][127] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][0][0] [1][CC][50][0] [1][CC][51][0]
