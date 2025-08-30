@@ -107,7 +107,7 @@ ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
 #short_dw1 = 
 short_up1 = [1][CC][49][127] [1][CC][49][0]
 long1 = [1][CC][49][127]
-#long_up1 = [1][CC][49][0]
+long_up1 = [1][CC][49][0]
 
 # B | HDRH - FS 2
 [key6]
@@ -117,7 +117,7 @@ ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
 #short_dw1 = 
 short_up1 = [1][CC][50][127] [1][CC][50][0]
 long1 = [1][CC][50][127]
-#long_up1 = [1][CC][50][0]
+long_up1 = [1][CC][50][0]
 
 # C | HDRH - FS 3
 [key7]
@@ -127,7 +127,7 @@ ledcolor1 = [0xA020F0][0xA020F0][0xA020F0]
 #short_dw1 = 
 short_up1 = [1][CC][51][127] [1][CC][51][0]
 long1 = [1][CC][51][127]
-#long_up1 = [1][CC][51][0]
+long_up1 = [1][CC][51][0]
 
 # D | HDRH - FootSwitch Bank A/B
 [key8]
